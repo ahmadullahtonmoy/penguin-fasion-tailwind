@@ -14,6 +14,8 @@
               colors: {
                 clifford: '#da373d',
                 penguin: '#FFFBF0',
+                winter: '#363958',
+                penguin_2: '#FABE4C',
               }
             }
           }
@@ -22,12 +24,12 @@
 </head>
 <body>
     <header class="bg-penguin">
-      <section class="container mx-auto flex items-center justify-around">
+      <section class="container sm:mx-auto mx-1 pb-32 pt-12 sm:flex items-center justify-around">
         <div class="space-y-10">
-          <h1 class="text-5xl font-bold uppercase">
-            <span class="text-yellow-300	">Be the Penguin</span>
+          <h1 class="sm:text-5xl text-3xl font-bold uppercase">
+            <span class="text-penguin_2	">Be the Penguin</span>
             <br>
-            <span>Of Winter</span>
+            <span class="text-winter">Of Winter</span>
           </h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, nam.</p>
           <button class="uppercase px-7 py-4 rounded-xl bg-[#A4BC46] text-white font-semibold">
@@ -36,8 +38,8 @@
             </svg>          
             buy now</button>
         </div>
-        <div>
-          <img src="images/model.png" alt="">
+        <div class="pt-10 sm:pt-0">
+          <img class="sm:w-full w-4/5" src="images/model.png" alt="">
         </div>
       </section>
     </header>
